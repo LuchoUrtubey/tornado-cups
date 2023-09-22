@@ -15,19 +15,19 @@ body, html {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-  background-image: url("images/foto1.jpg");
+  background-image: url("../images/foto1.jpg");
   min-height: 690px;
 }
 
 /* Second image (Portfolio) */
 .bgimg-2 {
-  background-image: url("images/foto2.jpg");
+  background-image: url("../images/foto2.jpg");
   min-height: 400px;
 }
 
 /* Third image (Contact) */
 .bgimg-3 {
-  background-image: url("images/foto3.jpg");
+  background-image: url("../images/foto3.jpg");
   min-height: 400px;
 }
 
@@ -40,4 +40,26 @@ body, html {
     background-attachment: scroll;
     min-height: 400px;
   }
+}
+
+/* Arreglo de logo en el centro */
+.w3-col.m6, .w3-half {
+    width: 100%;
+}
+
+.w3-black, .w3-hover-black:hover {
+  color: #fff!important;
+  background-color: #282828!important;
+  opacity: .6;
+}
+
+.w3-dark-grey, .w3-hover-dark-grey:hover, .w3-dark-gray, .w3-hover-dark-gray:hover {
+  color: #fff!important;
+  background-color: #282828!important;
+  opacity: .6;
+}
+
+.aboutfont {
+  font-size: 18px;
+  text-align: center;
 }
